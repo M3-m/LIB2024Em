@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--  <a href="url" title="popup text">link text</a>  -->
+
+<!-- General notes for Helena
+	I used double <br> tags to ensure there would be a gap inbetween paragraphs.
+	The majority of my code I built from w3schools or other online resources.
+	
+
+
+
+	I intended to continue building the website 1) for fun and 2) so I can put it on my resume. I left empty chunks of code in comments so I can easily return and fill the code in.
+
+ -->
+
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+		<title>Ancient Libraries</title>
+<!--Emoji graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/ Copyright 2019 Twitter, Inc and other contributors-->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="keywords" content="Ancient Libraries, Ancient world, libraries, classical">
+<meta name="dc.title" content="Emily's practice website">
+<meta name="dc.description" content="This is a test website to learn html and css">
+<meta name="dc.language" content="en">
+<meta name="dc.rights" content="Copyright Emily Maidment">
+<link rel="stylesheet" href="style.css" media="screen">
+<link rel="stylesheet" href="print.css" media="print">
+</head>
+
+<body class="home">
+<div id="wrapper">
+
+<div class="container"> <!--background photo in css -->
+<header> 
+		<h1 class="title">Libraries of the Ancient World</h1> 
+	<!-- the code below creates the 'browse by' dropdown nav menu on the top right of my header -->
+	<div class="dropdown"> <button class="dropbtn"> Browse by </button> 
+	<div class="dropdown-content"><a href="region.html">Region</a> <a href="type.html">Type</a>  <a href="status.html">Status</a></div>
+	</div>
+</header>
+<div class="textblock"> 
+	<h3>Learn about libraries of the Ancient world!</h3>
+	<p>Learn fun facts about libraries from around the Mediterranean and Asia.
+	<br> More content will be added soon! Check back for more information and 
+	<br>more libraries from Ancient Asia.</p>
+</div>
+</div>
+
+
+<article>
+	
+	<section> <!--photo gallery and brief blurb (to be filled in later)--> 
+		<!--<img src="images/ancientlib.jpg" title="Ancient library, Roma, San Giovanni in Laterano by The British Library" width="445" height="297" alt="black and white picture of ancient library>-->
+		<img src="images/celsusfacade.jpg" title="Facade of the Library of Celsus, Ephesus Turkey (16950996629) by Carole Raddato from Frankfurt, Germany is licensed under CC BY-SA 2.0." width="418" height="277" alt="black and white picture of ancient library"> 
+		<h2> About the site </h2>
+		<p>Blurb<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section> 
+	
+	<section class="byicon"> <!-- this is for the three tiles I have on the homepage linking to my browse by library __ pages -->
+		<a href="region.html" title="Browse by region"> <img src="images/region.png" width="400" height="400" alt="link to browse libraries by region page"></a>
+		<a href="type.html" title="Browse by type"> <img src="images/type.png" width="400" height="400" alt="link to browse libraries by type page"></a>
+		<a href="status.html" title="Browse by status"> <img src="images/status.png" width="400" height="400" alt="link to browse libraries by status page"></a>
+	</section>
+	
+</article>
+
+
+<footer>  
+	<p>
+		<address><a href="mailto:maid0026@algonquinlive.com" class="button" title="Send email">Contact me </a> </address>&copy;Copyright 2025<br>Emily Maidment
+	</p> 
+ </footer>
+</div>  <!-- This is the closing div wrapper tag -->
+
+</body>
+</html>
